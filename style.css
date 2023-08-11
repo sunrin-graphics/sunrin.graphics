@@ -1,0 +1,62 @@
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  color: #30343D;
+  background-color: #F6F7F9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#container {
+  max-width: 640px;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+#buttons {
+  display: flex;
+  gap: 8px;
+}
+
+#sunrin, p {
+  padding-left: 2px;
+}
+
+a {
+  color: #30343D;
+}
+
+.button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 12px 20px 12px 20px;
+  border: 0;
+  border-radius: 48px;
+  width: fit-content;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background-color: #30343D;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 100%;
+  margin: 0;
+}
+
+p {
+  line-height: 160%;
+  margin: 0;
+}
