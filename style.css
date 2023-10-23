@@ -13,6 +13,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 64px 0px;
 }
 .container {
   width: 100%;
@@ -21,10 +22,7 @@ footer{
   justify-content: space-between;
   padding: 0px 20px;
 }
-.container div{
-  padding-bottom: 64px;
-  padding-top: 64px;
-}
+
 header ul{
   margin: 0;
   list-style: none;
@@ -118,6 +116,11 @@ section .title {
   flex-direction: column;
   align-items: center;
   gap: 8px;
+}
+
+h1 {
+  font-weight: 500;
+  line-height: 140%;
 }
 
 h2 {
