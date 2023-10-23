@@ -33,7 +33,6 @@ header ul{
 body {
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   color: #30343D;
-  background-color: #F6F7F9;
   margin: 0;
   font-size: 15px;
 }
@@ -62,7 +61,7 @@ a {
   display: flex;
   gap: 8px;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #F6F7F9;
   padding: 12px 20px;
   border: 0;
   border-radius: 48px;
@@ -95,7 +94,7 @@ p, h1, h2 {
   height: 478px;
   justify-content: center;
   align-items: center;
-  background-color: #000000;
+  background-color: #30343D;
   color: #FFFFFF;
 }
 
@@ -135,4 +134,9 @@ h2 {
   gap: 28px;
   max-width: 800px;
   text-align: center;
+}
+
+.label {
+  color: #9096A3;
+  font-weight: 600;
 }
