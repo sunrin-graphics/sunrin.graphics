@@ -4,15 +4,26 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
-
+footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container {
   width: 100%;
   display: flex;
   max-width: 1200px;
   justify-content: space-between;
   padding: 0px 20px;
-  
+}
+.container div{
+  padding-bottom: 64px;
+  padding-top: 64px;
 }
 header ul{
   margin: 0;
