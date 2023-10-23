@@ -26,6 +26,7 @@ body {
   color: #30343D;
   background-color: #F6F7F9;
   margin: 0;
+  font-size: 15px;
 }
 
 #container {
@@ -43,10 +44,6 @@ body {
   gap: 8px;
 }
 
-#sunrin, p {
-  padding-left: 2px;
-}
-
 a {
   color: #30343D;
   text-decoration: none;
@@ -57,7 +54,7 @@ a {
   gap: 8px;
   align-items: center;
   background-color: #FFFFFF;
-  padding: 12px 20px 12px 20px;
+  padding: 12px 20px;
   border: 0;
   border-radius: 48px;
   width: fit-content;
@@ -74,10 +71,54 @@ h1 {
   font-weight: 600;
   font-size: 44px;
   line-height: 100%;
-  margin: 0;
 }
 
-p {
-  line-height: 160%;
+
+p, h1, h2 {
   margin: 0;
+  line-height: 150%;
+}
+
+
+#banner {
+  width: 100%;
+  display: flex;
+  height: 478px;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .container {
+  margin: 144px 0px;
+  justify-content: center;
+}
+
+section .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.context {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  max-width: 800px;
+  text-align: center;
 }
