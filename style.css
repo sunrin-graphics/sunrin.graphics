@@ -140,3 +140,11 @@ h2 {
   color: #9096A3;
   font-weight: 600;
 }
+
+#section2 {
+  background-color: #F6F7F9;
+}
+
+#section2 .button {
+  background-color:white ;
+}
