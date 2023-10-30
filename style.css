@@ -8,6 +8,24 @@ header {
   top: 0;
   background-color: white;
 }
+.sub_menu{
+  display: none;
+  position: absolute;
+  top: 41px;
+  left: 0px;
+  background: red;
+  text-align: center;
+  width: 100%;
+  min-width: 70px;
+}
+.main_menu>li{
+  position: relative;
+  float: left;
+  text-align: center;
+}
+.main_menu>li:hover .sub_menu{
+  display: block;
+}
 footer{
   width: 100%;
   display: flex;
