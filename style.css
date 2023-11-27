@@ -90,6 +90,9 @@ footer{
   left: 0; top: 0;
   display: flex; justify-content: space-between
 }
+.slides.anim{
+  transition: 2s linear;
+}
 .slides li{
   float: left;
   width: 272px;
