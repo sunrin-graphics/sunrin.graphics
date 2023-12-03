@@ -303,3 +303,13 @@ h3 {
   flex-direction: column;
   gap: 0px;
 }
+
+footer .container {
+  align-items: start;
+}
+
+#headerlogo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
