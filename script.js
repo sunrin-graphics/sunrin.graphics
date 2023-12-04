@@ -51,14 +51,14 @@ function moveSlide(num){
     console.log(currentIdx, slideCount);
     if(currentIdx ==slideCount || currentIdx == -slideCount){
         
-        setTimeout(function(){
-            slides[0].parentNode.classList.remove('anim');
-            slides[0].parentNode.left = '0px';
-            currentIdx = 0;
-        },1000)
+        
+        slides[0].parentNode.classList.remove('anim');
+        slides[0].parentNode.left = '0px';
+        currentIdx = 0;
+        
         setTimeout(function(){
             slides[0].parentNode.classList.add('anim');
-        },2000)
+        },50)
         
     }
 }
