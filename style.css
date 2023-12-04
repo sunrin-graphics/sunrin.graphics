@@ -203,7 +203,9 @@ p, h1, h2, h3 {
   height: 478px;
   justify-content: center;
   align-items: center;
-  background-color: #30343D;
+  background-image: url(image/background.jpg);
+  background-position: center;
+  background-size: cover;
   color: #FFFFFF;
 }
 
