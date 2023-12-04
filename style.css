@@ -267,7 +267,12 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-
+#section3 {
+  background-color: #F6F7F9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .boxlist {
   width: 100%;
   display: flex;
